@@ -279,7 +279,7 @@ class RenderEditable extends RenderBox with RelayoutWhenSystemFontsChangeMixin {
   }
 
   /// Character used to obscure text if [obscureText] is true.
-  static const String obscuringCharacter = '•';
+  static const String obscuringCharacter = '*';
 
   /// Called when the selection changes.
   ///
